@@ -2,3 +2,4 @@ always use Python 3.12+
 always add docstrings to functions, classes, and modules
 always use Python type hints
 always use f-strings for string interpolation
+always use the textual UI library for all UI needs

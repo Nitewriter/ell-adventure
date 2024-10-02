@@ -1,0 +1,41 @@
+/* Style for the settings screen container */
+#settings_container {
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+/* Style for the settings title */
+#settings_title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+/* Style for the labels */
+label {
+  font-size: 18px;
+  color: #cccccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style for the switches */
+.switch {
+  margin-bottom: 20px;
+}
+
+/* Style for the back button */
+#back_button {
+  background-color: #007acc;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#back_button:hover {
+  background-color: #005a9e;
+}

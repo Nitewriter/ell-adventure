@@ -14,6 +14,7 @@ packages = [{include = "adventure", from = "src"}]
 python = "^3.12"
 ell-ai = {extras = ["all"], version = "^0.0.13"}
 openai = "^1.51.0"
+textual = "^0.81.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.3"

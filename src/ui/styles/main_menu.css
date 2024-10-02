@@ -1,0 +1,58 @@
+Screen {
+  align: center middle;
+  background: #2c3e50;
+}
+
+Header {
+  dock: top;
+  height: 3;
+  background: #34495e;
+  color: #ecf0f1;
+  text-align: center;
+  text-style: bold;
+}
+
+Footer {
+  dock: bottom;
+  height: 1;
+  background: #34495e;
+  color: #ecf0f1;
+}
+
+#menu_container {
+  width: 30%;
+  height: auto;
+  border: round #3498db;
+  padding: 1 2;
+  background: #34495e;
+}
+
+Button {
+  width: 100%;
+  margin: 1 0;
+  padding: 1 2;
+  background: #2980b9;
+  color: #ecf0f1;
+  text-align: center;
+  text-style: bold;
+}
+
+Button:hover {
+  background: #3498db;
+}
+
+Button#start_game {
+  background: #27ae60;
+}
+
+Button#start_game:hover {
+  background: #2ecc71;
+}
+
+Button#exit {
+  background: #c0392b;
+}
+
+Button#exit:hover {
+  background: #e74c3c;
+}

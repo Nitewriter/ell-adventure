@@ -1,8 +1,8 @@
-import datetime
+from ui import MainMenu
 
 
 def main():
-    print(f"Welcome to the Adventure! Today's date is {datetime.datetime.now().strftime('%Y-%m-%d')}.")
+    MainMenu().run()
 
 
 if __name__ == "__main__":
