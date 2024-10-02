@@ -28,7 +28,7 @@ format:
 	@echo "Running ruff for fixing lint issues..."
 	ruff check --fix .
 	@echo "Sorting pyproject.toml with toml-sort..."
-	toml-sort pyproject.toml
+	toml-sort -i pyproject.toml
 
 # Check target to run both linting and formatting checks
 .PHONY: check
