@@ -1,0 +1,36 @@
+/* Style for the settings screen container */
+#settings_container {
+  padding: 1 1 1 1; /* Use 1 unit padding for all sides */
+  background: #1e1e1e; /* Use 'background' instead of 'background-color' */
+  border: solid #1e1e1e; /* Use 'border' with a valid border type and color */
+}
+
+/* Style for the settings title */
+#settings_title {
+  color: #ffffff;
+  margin-bottom: 1; /* Use 1 unit margin */
+}
+
+/* Style for the labels */
+#settings_title {
+  color: #cccccc;
+}
+
+/* Style for the switches */
+.switch {
+  margin-bottom: 1; /* Use 1 unit margin */
+}
+
+/* Style for the back button */
+#back_button {
+  background: #007acc; /* Use 'background' instead of 'background-color' */
+  color: #ffffff;
+  border: none;
+  padding: 1 2; /* Use 1 unit padding for vertical and 2 units for horizontal */
+  border: solid #007acc; /* Use 'border' with a valid border type and color */
+  margin-top: 1; /* Use 1 unit margin */
+}
+
+#back_button:hover {
+  background: #005a9e; /* Use 'background' instead of 'background-color' */
+}

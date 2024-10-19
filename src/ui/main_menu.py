@@ -8,7 +8,7 @@ from ui.settings_screen import SettingsScreen  # Add this import
 class MainMenu(App):
     """Main menu application for the game."""
 
-    CSS_PATH = "styles/main_menu.css"
+    CSS_PATH = "styles/main_menu.tcss"
     SCREENS = {"settings": SettingsScreen}  # Provide the class, not an instance
 
     def compose(self) -> ComposeResult:

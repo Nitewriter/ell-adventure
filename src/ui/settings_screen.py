@@ -7,6 +7,8 @@ from textual.widgets import Button, Footer, Header, Label, Switch
 class SettingsScreen(Screen):
     """A screen for game settings."""
 
+    CSS_PATH = "styles/settings_screen.tcss"
+
     def compose(self) -> ComposeResult:
         """Compose the settings UI."""
         yield Header()
@@ -24,7 +26,11 @@ class SettingsScreen(Screen):
         yield Footer()
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
-        """Handle button press events."""
+        """Handle button press events.
+
+        Args:
+            event (Button.Pressed): The button pressed event.
+        """
         if event.button.id == "back_button":
             self.app.pop_screen()
 
